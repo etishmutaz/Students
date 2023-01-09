@@ -1,0 +1,12 @@
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\DLL.dll.config
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\DLL.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\DLL.pdb
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\obj\Debug\DLL.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DLL\obj\Debug\DLL.pdb

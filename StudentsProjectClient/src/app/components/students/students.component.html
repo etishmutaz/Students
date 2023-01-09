@@ -1,0 +1,26 @@
+<h1 class="h1">טבלת תלמידים</h1>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">מזהה</th>
+                <th scope="col">שם משפחה</th>
+                <th scope="col">תז</th>
+                <th scope="col">תאריך לידה</th>
+                <th scope="col">עיר</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let s of students">
+                <th scope="row">{{s.Id}}</th>
+                <th scope="row">{{s.FirstName}}</th>
+                <th scope="row">{{s.LastName}}</th>
+                <th scope="row">{{s.DateOfBitrh|Date:"dd/MM/yyyy"}}</th>
+                <th scope="row">{{s.IsraeliID}}</th>
+                <th scope="row">{{s.City? s.City.CityName:'-'}}</th>
+            </tr>
+         
+        </tbody>
+    </table>
+</div>

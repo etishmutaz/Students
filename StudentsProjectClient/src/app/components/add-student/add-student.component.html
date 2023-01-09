@@ -1,0 +1,34 @@
+<form [formGroup]="studentsForm" >
+        <p class="h5 text-center mb-4">הוספת תלמיד</p>
+        <div class="md-form"><i class="fas fa-user prefix grey-text"></i>
+                <input type="text" formControlName="FirstName" mdbinput class="form-control">
+                <label for="FirstName" class="">שם פרטי</label>
+        </div>
+        <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="email" formcontrolname="LastName" mdbinput class="form-control">
+                <label for="LastName">שם משפחה</label>
+        </div>
+        <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <input type="date" formcontrolname="DateOfBitrh" mdbinput class="form-control">
+                <label for="DateOfBitrh">תאריך לידה</label>
+        </div>
+        <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <input type="text" formcontrolname="IsraelID" mdbinput class="form-control"><label
+                        for="IsraelID">תז</label>
+        </div>
+        <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <select><option *ngFor="let c of cities">{{c.CityName}}</option></select>
+                <!-- <input type="text" formcontrolname="CityID" mdbinput class="form-control"> -->
+                <label   for="CityID">עיר</label>
+        </div>
+        <div class="text-center">
+                <button mdbbtn [disable]="!studentsForm.valid"
+                (click)="save();"
+                color="unique" mdbwaveseffect="" class="waves-light btn-unique btn">
+                        שמור<i class="fas fa-paper-plane-o ml-1"></i></button>
+        </div>
+</form>

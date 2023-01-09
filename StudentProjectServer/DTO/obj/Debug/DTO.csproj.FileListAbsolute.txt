@@ -1,0 +1,6 @@
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\bin\Debug\DTO.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\bin\Debug\DTO.pdb
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\obj\Debug\DTO.dll
+C:\Users\user1\Desktop\StudentProject\StudentProjectServer\DTO\obj\Debug\DTO.pdb
